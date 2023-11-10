@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/1073596-removebg-preview.png">
+    <title>Exercício 6</title>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <a href="" class="logo">Atividade JS</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+              <li><a href="index.html">Início</a></li>
+              <li><a href="jogo.html">Jogo</a></li>
+              <li><a href="https://github.com/ThiagoSerafim7/Exercicios_js.git">GitHub</a></li>
+            </ul>
+        </nav>
+       </header>
+
+    <div class="container">
+        <div>
+        <h1>Calcular o peso ideal</h1>
+        <h3>Digite sua altura:</h3>
+        <input type="number" placeholder="Altura" id="altura">
+        <h3>
+            Você é:
+        </h3>
+        <select id="gen">
+            <option value="Homem">Homem</option>
+            <option value="Mulher">Mulher</option>
+        </select>
+        </div>
+        <button onclick="imc()" style="margin-top: 2%;">Iniciar conversão</button>
+        <div id="resultado">
+            <h3>Seu peso ideal é: <span id="total"></span></h3>
+        </div>
+    </div>
+
+    <footer>
+        <p>Desenvolvido por: Thiago Serafim</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
